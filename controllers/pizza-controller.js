@@ -4,10 +4,10 @@ const pizzaController = {
     // this is where the functions go that will be our methods
     getAllPizza(req, res) {
         Pizza.find({})
-            .then(dbPizzaData => (dbPizzaData))
+            .then(dbPizzaData => res.json(dbPizzaData))
             .catch(err => {
                 console.log(err);
-                rest.status(400).json(err);
+                res.status(400).json(err);
             });
     },
 
