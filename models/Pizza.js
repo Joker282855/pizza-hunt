@@ -32,6 +32,10 @@ const PizzaSchema = new Schema(
     }
 );
 
+PizzaSchema.virtual('commentCount').get(function() {
+    return this.comments.length;
+});
+
 const Pizza = model('Pizza', PizzaSchema);
 
 module.exports = Pizza;

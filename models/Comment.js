@@ -1,6 +1,6 @@
 const { Schema, model } = require('mongoose');
 
-const CommentShcema = new Schema({
+const CommentSchema = new Schema({
     writtenBy: {
         type: String
     },
