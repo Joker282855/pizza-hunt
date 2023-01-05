@@ -18,7 +18,7 @@ To run the application you need to first install the software program Visual Stu
 the version of the software that is specfic to your computer. After installing Visual Studio Code Node.js will have to be installed on your 
 computer as well. After both of these are installed on your computer follow the link below to my github account for this repository
 
-<a href="https://github.com/Joker282855/jest-another-RPG">Repository Link</a>
+<a href="https://github.com/Joker282855/pizza-hunt">Repository Link</a>
 
 Click on the green code button and copy the http option of the code. After that open up visual studio code and type the command git
 clone (the http otpion of the code goes next) in the command line to pull down my repository. After pulling down the repository type
